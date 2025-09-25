@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.postimg.cc/7LhQghMy/image-no-bg-smooth.png" width="150">
+  <img src="https://i.postimg.cc/BQyDg2jN/image-no-bg.png" width="150">
   <h1>AlphaOracle</h1>
 </div>
 
