@@ -69,7 +69,7 @@ We are committed to providing cutting-edge AI assistance. However, due to inhere
 
 ## License
 
-[MIT LICENSE](LICENSE).
+[MIT LICENSE](LICENSE)
 
 ---
 
