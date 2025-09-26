@@ -7,10 +7,16 @@
 
 AlphaOracle is an artificial intelligence system that assists experts in deciphering oracle bone script. It provides auxiliary clues for experts and improves interpretation efficiency through four methods: analysis of rubbings and facsimiles, analysis of individual oracle bone characters, retrieval of individual oracle bone characters, and retrieval of related literature.
 
+<div align="center">
+
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
 [![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:8224/)
 [![license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+[English](README.md) | [中文](README_zh-CN.md)
+
+</div>
 
 ---
 
@@ -33,26 +39,26 @@ This project draws upon a comprehensive collection of textual and inscriptional 
 
 ### Oracle Bone Inscription Databases:
 - **Rubbings and Transcriptions**: 
-  - 《甲骨文合集》 
-  - 《甲骨文摹本大系》
-  - 《甲骨文校释总集》
+  - 《Jia Gu Wen He Ji》 
+  - 《Jia Gu Wen Mo Ben Da Xi》
+  - 《Jia Gu Wen Jiao Shi Zong Ji》
 - **Glyph Information**:
-  - 《新甲骨文编》
-  - 《甲骨文六位数字码检索字库》
-  - 《西周金文字编》
-  - 《春秋文字字形表》
-  - 《战国文字字形表》
-  - 《说文解字》
-  - 殷契文渊 (website)
-  - 国学大师 (website)
+  - 《Xin Jia Gu Wen Bian》
+  - 《Jia Gu Wen Liu Wei Shu Zi Ma Jian Suo Zi Ku》
+  - 《Xi Zhou Jin Wen Zi Bian》
+  - 《Chun Qiu Wen Zi Zi Xing Biao》
+  - 《Zhan Guo Wen Zi Zi Xing Biao》
+  - 《Shuo Wen Jie Zi》
+  - Yin Qi Wen Yuan (website)
+  - Guo Xue Da Shi (website)
 - **Interpretive Resources**:
-  - 《古文字诂林》
-  - 《甲骨文诂林》
+  - 《Gu Wen Zi Gu Lin》
+  - 《Jia Gu Wen Gu Lin》
 - **Sentence Translation**:
-  - 《甲骨文精粹释译》
+  - 《Jia Gu Wen Jing Cui Shi Yi》
 
 ### Pre-Qin and Han Transmitted Texts:
-- 《汉书》, 《史记》, 《左传》, 《黄帝内经》, 《战国策》, 《淮南子》, 《韩非子》, 《礼记》, 《吕氏春秋》, 《国语》, 《仪礼》, 《庄子》, 《墨子》, 《周礼》, 《孟子》, 《山海经》, 《尚书》, 《荀子》, 《论语》, 《易传》, 《孙膑兵法》, 《老子》, 《孙子兵法》, 《吴子》
+- 《Han Shu》, 《Shi Ji》, 《Zuo Zhuan》, 《Huangdi Neijing》, 《Zhanguo Ce》, 《Huainanzi》, 《Han Feizi》, 《Li Ji》, 《Lu Shi Chunqiu》, 《Guo Yu》, 《Yi Li》, 《Zhuangzi》, 《Mozi》, 《Zhou Li》, 《Mengzi》, 《Shan Hai Jing》, 《Shang Shu》, 《Xunzi》, 《Lunyu》, 《Yizhuan》, 《Sun Bin Bingfa》, 《Laozi》, 《Sunzi Bingfa》, 《Wuzi》
 
 ### Modern Scholarly Literature:
 A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://vlrlabmonkey.xyz:8224/wenxian).
