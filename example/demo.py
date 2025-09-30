@@ -23,6 +23,7 @@ def decode_base64_to_image(image_b64: str) -> np.ndarray:
 
 def save_base64_image(img_base64: str, save_path: str):
     """将 base64 编码的图片保存到本地文件"""
+    save_path = Path(save_path)
     img = decode_base64_to_image(img_base64)
     os.makedirs(os.path.dirname(save_path) or ".", exist_ok=True)
     cv2.imwrite(save_path, img)
@@ -57,6 +58,7 @@ TASK_ENDPOINTS = {
     # 非图片类任务（JSON 转发）
     "get_order_1": "/get_order_1/",
     "dino_search": "/dino_search/",
+    "denoise_tapian_danzi": "/denoise_tapian_danzi/",
 }
 
 
@@ -149,6 +151,7 @@ DEFAULT_IMAGES = {
     # get_order_1 不需要图片，占位即可
     "get_order_1": str(IMAGES_DIR / "保.png"),
     "dino_search": str(IMAGES_DIR / "安.png"),
+    "denoise_tapian_danzi": str(IMAGES_DIR / "h00026_190.jpg"),
 }
 
 
@@ -243,6 +246,12 @@ def run_demo(tasks, server_url: str, save_dir: str):
                     if font_img_b64:
                         out_font = os.path.join(save_dir, task, "font_img.png")
                         save_base64_image(font_img_b64, out_font)
+                
+                if task == "denoise_tapian_danzi":
+                    denoise_img_b64 = result.get("image")
+                    if denoise_img_b64:
+                        out_denoise = os.path.join(save_dir, task, "denoise_img.png")
+                        save_base64_image(denoise_img_b64, out_denoise)
 
             # 输出简要结果
             result_json = json.dumps(result, ensure_ascii=False)
@@ -265,7 +274,7 @@ def run_demo(tasks, server_url: str, save_dir: str):
 def parse_args():
     parser = argparse.ArgumentParser(description="调用聚合 API 的演示脚本")
     parser.add_argument("--server-url", default=os.getenv("JICHENG_SERVER_URL", "http://vlrlabmonkey.xyz:7680"), help="API 服务器地址")
-    parser.add_argument("--save-dir", default="./outputs", help="输出保存目录")
+    parser.add_argument("--save-dir", default="example/outputs", help="输出保存目录")
     parser.add_argument("--tasks", nargs="*", choices=list(DEFAULT_IMAGES.keys()),
                         default=[
                             "moben_danzi_detect",
@@ -274,10 +283,12 @@ def parse_args():
                             "tapian_danzi_classify",
                             "moben_danzi_classify",
                             "tapian_danzi_detect",
+                            "obsd_inference",
                             "p3_inference",
                             "evobc_inference",
                             "get_order_1",
-                            "dino_search"
+                            "dino_search",
+                            "denoise_tapian_danzi"
                         ], help="需要运行的任务列表")
 
     # 排序接口参数

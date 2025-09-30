@@ -3,7 +3,9 @@
   <h1>AlphaOracle</h1>
 </div>
 
-### Oracle bone script decipherment via human-workflow-inspired deep learning.
+<div align="center">
+<h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
+</div>
 
 AlphaOracle is an artificial intelligence system that assists experts in deciphering oracle bone script. It provides auxiliary clues for experts and improves interpretation efficiency through four methods: analysis of rubbings and facsimiles, analysis of individual oracle bone characters, retrieval of individual oracle bone characters, and retrieval of related literature.
 
