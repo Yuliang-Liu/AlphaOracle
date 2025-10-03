@@ -1,9 +1,4 @@
 <div align="center">
-  <img src="https://i.postimg.cc/Kvk8mhqT/image-no-bg.png" width="150">
-  <h1>AlphaOracle</h1>
-</div>
-
-<div align="center">
 <h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
 </div>
 
@@ -28,6 +23,10 @@ AlphaOracle is an artificial intelligence system that assists experts in deciphe
 - Analysis and Decipherment of Individual Oracle Bone Characters: investigating the diachronic evolution of their glyph forms, analyzing their component structures and configurations, and generating descriptions of their morphological features. 
 - Retrieval for Oracle Bone Characters: using a single character image as a query, the system retrieves all characters with similar glyph shapes from the database. For each result, it provides the corresponding complete rubbing or transcription in which the character is found.
 - Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
+
+<div align="center">
+  <img src="https://v1.ax1x.com/2025/10/03/EIkE87.png" width="800">
+</div>
 
 ## Tutorial
 
