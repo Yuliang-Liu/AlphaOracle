@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
+</div>
+
+<div align="center">
 <h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
 </div>
 
