@@ -38,7 +38,7 @@ This project includes a Jupyter Notebook that demonstrates the usage of each API
 
 [View the Tutorial Notebook](example/demo.ipynb)
 
-## <img width="2048" height="2048" alt="新对话" src="https://github.com/user-attachments/assets/99499dc8-0e69-4506-acfc-5cdadd52a038" />  Example
+## Example
 
 ## Data Sources
 
