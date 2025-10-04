@@ -39,7 +39,7 @@ This project includes a Jupyter Notebook that demonstrates the usage of each API
 [View the Tutorial Notebook](example/demo.ipynb)
 
 ## Example
-<img src="examples/rubbing_parsing.png"/>
+<img src="example/rubbing_parsing.png"/>
 
 ## Data Sources
 
