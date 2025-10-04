@@ -65,6 +65,9 @@ This project includes a Jupyter Notebook that demonstrates the usage of each API
 
 [View the Tutorial Notebook](example/demo.ipynb)
 
+## Example
+<img src="example/rubbing_parsing.png"/>
+
 ## Data Sources
 
 This project draws upon a comprehensive collection of textual and inscriptional resources, including:
