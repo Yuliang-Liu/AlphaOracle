@@ -99,6 +99,11 @@ A vast collection of modern academic papers and research reports focusing on ora
 ## Academic Rigor
 
 We are committed to providing cutting-edge AI assistance. However, due to inherent technological and data limitations, the output may contain discrepancies or misinterpretations. If you reference insights from this system in any published work, please include an appropriate acknowledgement and conduct your own final academic verification.
+## Demo
+
+
+https://github.com/user-attachments/assets/85296225-87df-4cf5-824a-b45c4ddf88c7
+
 
 ## License
 
