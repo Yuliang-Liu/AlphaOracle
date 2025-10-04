@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="https://i.postimg.cc/Kvk8mhqT/image-no-bg.png" width="150">
-  <h1>AlphaOracle</h1>
+  <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
 </div>
 
-### Oracle bone script decipherment via human-workflow-inspired deep learning.
+<div align="center">
+<h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
+</div>
 
 AlphaOracle is an artificial intelligence system that assists experts in deciphering oracle bone script. It provides auxiliary clues for experts and improves interpretation efficiency through four methods: analysis of rubbings and facsimiles, analysis of individual oracle bone characters, retrieval of individual oracle bone characters, and retrieval of related literature.
 
@@ -27,11 +28,17 @@ AlphaOracle is an artificial intelligence system that assists experts in deciphe
 - Retrieval for Oracle Bone Characters: using a single character image as a query, the system retrieves all characters with similar glyph shapes from the database. For each result, it provides the corresponding complete rubbing or transcription in which the character is found.
 - Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
 
+<div align="center">
+  <img src="https://v1.ax1x.com/2025/10/03/EIkE87.png" width="800">
+</div>
+
 ## Tutorial
 
 This project includes a Jupyter Notebook that demonstrates the usage of each API in AlphaOracle. It begins by defining common utilities and wrapper functions, and then demonstrates the input and output formats for each task in separate code blocks.
 
 [View the Tutorial Notebook](example/demo.ipynb)
+
+## Example
 
 ## Data Sources
 
