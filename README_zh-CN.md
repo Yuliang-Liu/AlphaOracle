@@ -65,17 +65,13 @@ AlphaOracle 是一套帮助专家释读甲骨文的人工智能系统。它通�
 ### 现代学术文献：
 - 覆盖甲骨文、古文字、先秦史等相关领域的大量学术论文与研究报告。更多详情请参见[原始数据来源](http://vlrlabmonkey.xyz:8224/wenxian)。
 
+## 网站演示
+本项目还提供了网站[AlphaOracle](http://vlrlabmonkey.xyz:8224/)便于快速体验和使用
+https://github.com/user-attachments/assets/70e2c3d0-6da2-45af-b03e-76ae5ea8a0e7
+
 ## 学术谨慎
 
 我们致力于提供前沿的 AI 辅助能力。但由于技术与数据的限制，输出结果仍可能存在偏差或误释。如需在正式出版物中引用本系统产生的见解，请完善注明出处，并进行必要的学术核查。
-
-## 网站演示
-
-
-https://github.com/user-attachments/assets/70e2c3d0-6da2-45af-b03e-76ae5ea8a0e7
-
-
-
 
 ## 许可协议
 
