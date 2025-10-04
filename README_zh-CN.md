@@ -69,6 +69,11 @@ AlphaOracle 是一套帮助专家释读甲骨文的人工智能系统。它通�
 
 我们致力于提供前沿的 AI 辅助能力。但由于技术与数据的限制，输出结果仍可能存在偏差或误释。如需在正式出版物中引用本系统产生的见解，请完善注明出处，并进行必要的学术核查。
 
+## 网站演示
+
+https://github.com/user-attachments/assets/9085196d-7e65-4ace-ada3-f8e3597e73ee
+
+
 ## 许可协议
 
 [MIT LICENSE](LICENSE)
