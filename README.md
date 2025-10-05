@@ -96,7 +96,7 @@ This project draws upon a comprehensive collection of textual and inscriptional 
 ### Modern Scholarly Literature:
 A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://vlrlabmonkey.xyz:8224/wenxian).
 
-## Demo
+##Introduction video
 We also provide the website [AlphaOracle](http://vlrlabmonkey.xyz:8224/) for quick experience and use
 
 https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
