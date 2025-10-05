@@ -115,7 +115,7 @@ A vast collection of modern academic papers and research reports focusing on ora
 
 ## Video Demonstration
 
-https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
+https://github.com/user-attachments/assets/ede62cfd-26e9-4b64-9287-a3b3f03372dc
 
 We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for quick experience and use.
 
