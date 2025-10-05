@@ -8,7 +8,7 @@
 <p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author</p>
 </div>
 
-We introduce a human-workflow-inspired approach AlphaOracle that accelerates oracle bone scholarship while preserving transparency and rigor
+We introduce a human-workflow-inspired approach AlphaOracle that accelerates oracle bone scholarship while preserving transparency and rigor.
 
 <div align="center">
 
@@ -23,8 +23,7 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 
 ---
 
-<details open><summary>💡 I also have other projects that may interest you ✨. </summary><p>
-<!--  may -->
+<!-- <details open><summary>💡 I also have other projects that may interest you ✨. </summary><p>
     
 > [**Deciphering Oracle Bone Language with Diffusion Models**](https://arxiv.org/abs/2406.00684) <br>
 > Haisu Guan, Huanxin Yang, Xinyu Wang, Shengwei Han, Yongge Liu, Lianwen Jin, Xiang Bai, Yuliang Liu <br>
@@ -40,7 +39,7 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 
 > [**An open dataset for the evolution of oracle bone characters: EVOBC**](https://arxiv.org/abs/2401.12467) <br>
 > Haisu Guan, Jinpeng Wan, Yuliang Liu, Pengjie Wang, Kaile Zhang, Zhebin Kuang, Xinyu Wang, Xiang Bai, Lianwen Jin <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
 
 ## 📰 News
 
@@ -135,7 +134,7 @@ We are committed to providing cutting-edge AI assistance. However, due to inhere
 
 [Apache License](LICENSE)
 
-## ✏️ Citation
+<!-- ## ✏️ Citation
 
 ```BibTeX
 @article{liu2025oracle,
@@ -143,7 +142,7 @@ We are committed to providing cutting-edge AI assistance. However, due to inhere
   author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
   year={2025}
 }
-```
+``` -->
 
 ## 🤝 Contributors
 

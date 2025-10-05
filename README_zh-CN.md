@@ -4,7 +4,7 @@
 
 <div align="center">
 <h3>利用受人类工作流启发的深度学习框架破译甲骨文</h3>
-  <p>刘宇梁<sup>*,†</sup>, 关海苏<sup>*</sup>, 王鹏杰<sup>*</sup>, 王新宇<sup>*</sup>, 万金鹏, 张凯乐, 郑翰东, 刘星辰, 邝哲彬, 杨欢鑫, 李邦, 刘永革, 金连文<sup>†</sup>, 白翔<sup>†</sup></p>
+  <p>刘禹良<sup>*,†</sup>, 管海粟<sup>*</sup>, 王鹏杰<sup>*</sup>, 王欣雨<sup>*</sup>, 万金鹏, 张凯乐, 郑汉东, 刘星辰, 匡嚞玢, 杨焕鑫, 李邦, 刘永革, 金连文<sup>†</sup>, 白翔<sup>†</sup></p>
 <p><sup>*</sup>同等贡献, <sup>†</sup>通讯作者</p>
 </div>
 
@@ -23,7 +23,7 @@
 
 ---
 
-<details open><summary>💡 我还有其他您可能感兴趣的项目 ✨。</summary><p>
+<!-- <details open><summary>💡 我还有其他您可能感兴趣的项目 ✨。</summary><p>
     
 > [**Deciphering Oracle Bone Language with Diffusion Models**](https://arxiv.org/abs/2406.00684) <br>
 > 管海粟, 杨焕鑫, 王欣雨, 韩胜伟, 刘永革, 金连文, 白翔, 刘禹良 <br>
@@ -39,7 +39,7 @@
 
 > [**An open dataset for the evolution of oracle bone characters: EVOBC**](https://arxiv.org/abs/2401.12467) <br>
 > 管海粟, 万金鹏, 刘禹良, 王鹏杰, 张凯乐, 匡嚞玢, 王欣雨, 白翔, 金连文 <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
 
 ## 📰 新闻
 
@@ -129,7 +129,7 @@ https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 [Apache License](LICENSE)
 
-## ✏️ 引用
+<!-- ## ✏️ 引用
 
 ```BibTeX
 @article{liu2025oracle,
@@ -137,7 +137,7 @@ https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
   author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
   year={2025}
 }
-```
+``` -->
 
 ## 🤝 贡献者
 
