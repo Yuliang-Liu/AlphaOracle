@@ -8,7 +8,9 @@
 <p><sup>*</sup>同等贡献, <sup>†</sup>通讯作者</p>
 </div>
 
+<div align="center">
 我们引入了一种受人类工作流程启发的方法 AlphaOracle，它可以加速甲骨文学术研究，同时保持透明度和严谨性。
+</div>
 
 <div align="center">
 

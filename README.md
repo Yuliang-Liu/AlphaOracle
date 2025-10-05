@@ -8,7 +8,9 @@
 <p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author</p>
 </div>
 
+<div align="center">
 We introduce a human-workflow-inspired approach AlphaOracle that accelerates oracle bone scholarship while preserving transparency and rigor.
+</div>
 
 <div align="center">
 
