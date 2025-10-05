@@ -54,6 +54,7 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 <div align="center">
   <img src="figures/key1.png" width="600">
 </div>
+
 - Analysis and Decipherment of Individual Oracle Bone Characters: investigating the diachronic evolution of their glyph forms, analyzing their component structures and configurations, and generating descriptions of their morphological features. 
 <div align="center">
   <img src="figures/key2.png" width="600">
