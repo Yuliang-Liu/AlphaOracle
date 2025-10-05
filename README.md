@@ -44,7 +44,7 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 
 ## 📰 News
 
-* **[2025.10.5]** We have released the paper and [demo](http://www.alphaoracle.cn:8224/?lan=en) of AlphaOracle.
+* `[2025.10.5]`  We have released the paper and [demo](http://www.alphaoracle.cn:8224/?lan=en) of AlphaOracle.
 
 </p></details>
 
@@ -101,6 +101,15 @@ A vast collection of modern academic papers and research reports focusing on ora
 https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for quick experience and use.
+
+## To Do List
+
+- [✔] Demo
+- [ ] API
+- [ ] Model Weights
+- [ ] Inference Code
+- [ ] Full Decipherment Pipeline
+- [ ] Training Code
 
 ## Academic Statement
 

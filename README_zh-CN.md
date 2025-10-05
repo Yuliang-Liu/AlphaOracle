@@ -14,7 +14,7 @@
 
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
-[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://www.alphaoracle.cn:8224/?lan=zh)
+[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://www.alphaoracle.cn:8224/)
 [![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
 
 [English](README.md) | [中文](README_zh-CN.md)
@@ -43,7 +43,7 @@
 
 ## 📰 新闻
 
-* **[2025.10.5]** 我们发布了 AlphaOracle 的论文和[演示](http://www.alphaoracle.cn:8224/)。
+* `[2025.10.5]` 我们发布了 AlphaOracle 的论文和[演示](http://www.alphaoracle.cn:8224/)。
 
 </p></details>
 
@@ -63,6 +63,7 @@
 项目附带 Jupyter Notebook，逐步演示 AlphaOracle 每个 API 的调用方式。Notebook 先定义常用工具与封装函数，再为每项任务分别展示输入输出示例。
 
 [查看示例 Notebook](example/demo.ipynb)
+
 
 ## 数据来源
 
@@ -98,7 +99,16 @@
 
 https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
-我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224/) 以便快速体验和使用。
+我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224) 以便快速体验和使用。
+
+## 待办事项
+
+- [✔] 演示
+- [ ] API
+- [ ] 模型权重
+- [ ] 推理代码
+- [ ] 完整的释读流程
+- [ ] 训练代码
 
 ## 学术声明
 
