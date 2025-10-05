@@ -51,7 +51,7 @@
 
 - 甲骨文拓片与摹本分析：覆盖字符检测、字符识别、句子切分、句内排序以及翻译为现代汉语等步骤。
 <div align="center">
-  <img src="figures/en/key1.png" width="600">
+  <img src="figures/zh/key1.png" width="600">
 </div>
 - 单字分析与释读：考察甲骨文字形的历时演变，分析部件结构与构形，并生成其形态特征描述。
 <div align="center">
