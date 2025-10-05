@@ -8,14 +8,14 @@
 <p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author</p>
 </div>
 
-AlphaOracle is an artificial intelligence system that assists experts in deciphering oracle bone script. It provides auxiliary clues for experts and improves interpretation efficiency through four methods: analysis of rubbings and facsimiles, analysis of individual oracle bone characters, retrieval of individual oracle bone characters, and retrieval of related literature.
+We introduce a human-workflow-inspired approach AlphaOracle that accelerates oracle bone scholarship while preserving transparency and rigor
 
 <div align="center">
 
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
-[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:8224/)
-[![license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://www.alphaoracle.cn:8224/?lan=en)
+[![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -94,13 +94,13 @@ This project draws upon a comprehensive collection of textual and inscriptional 
 - 《Han Shu》, 《Shi Ji》, 《Zuo Zhuan》, 《Huangdi Neijing》, 《Zhanguo Ce》, 《Huainanzi》, 《Han Feizi》, 《Li Ji》, 《Lu Shi Chunqiu》, 《Guo Yu》, 《Yi Li》, 《Zhuangzi》, 《Mozi》, 《Zhou Li》, 《Mengzi》, 《Shan Hai Jing》, 《Shang Shu》, 《Xunzi》, 《Lunyu》, 《Yizhuan》, 《Sun Bin Bingfa》, 《Laozi》, 《Sunzi Bingfa》, 《Wuzi》
 
 ### Modern Scholarly Literature:
-A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://vlrlabmonkey.xyz:8224/wenxian).
+A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://www.alphaoracle.cn:8224/wenxian?lan=en).
 
 ## Video Demonstration
 
 https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
-We provide the website [AlphaOracle](http://vlrlabmonkey.xyz:8224/) for quick experience and use
+We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for quick experience and use.
 
 ## Academic Statement
 
@@ -113,7 +113,7 @@ We are committed to providing cutting-edge AI assistance. However, due to inhere
 ## ✏️ Citation
 
 ```BibTeX
-@article{lin2023video,
+@article{liu2025oracle,
   title={Oracle bone script decipherment via human-workflow-inspired deep learning},
   author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
   year={2025}

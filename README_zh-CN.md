@@ -1,20 +1,21 @@
 <div align="center">
-  <img src="https://i.postimg.cc/Kvk8mhqT/image-no-bg.png" width="150">
-  <h1>AlphaOracle</h1>
+  <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
 </div>
 
 <div align="center">
 <h3>利用受人类工作流启发的深度学习框架破译甲骨文</h3>
+  <p>刘宇梁<sup>*,†</sup>, 关海苏<sup>*</sup>, 王鹏杰<sup>*</sup>, 王新宇<sup>*</sup>, 万金鹏, 张凯乐, 郑翰东, 刘星辰, 邝哲彬, 杨欢鑫, 李邦, 刘永革, 金连文<sup>†</sup>, 白翔<sup>†</sup></p>
+<p><sup>*</sup>同等贡献, <sup>†</sup>通讯作者</p>
 </div>
 
-AlphaOracle 是一套帮助专家释读甲骨文的人工智能系统。它通过甲骨文拓片与摹本分析、单字分析、单字检索以及相关文献检索四种方式，提供辅助线索并提升释读效率。
+我们引入了一种受人类工作流程启发的方法 AlphaOracle，它可以加速甲骨文学术研究，同时保持透明度和严谨性。
 
 <div align="center">
 
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
-[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:8224/)
-[![license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://www.alphaoracle.cn:8224/?lan=zh)
+[![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -22,12 +23,40 @@ AlphaOracle 是一套帮助专家释读甲骨文的人工智能系统。它通�
 
 ---
 
+<details open><summary>💡 我还有其他您可能感兴趣的项目 ✨。</summary><p>
+    
+> [**Deciphering Oracle Bone Language with Diffusion Models**](https://arxiv.org/abs/2406.00684) <br>
+> 管海粟, 杨焕鑫, 王欣雨, 韩胜伟, 刘永革, 金连文, 白翔, 刘禹良 <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/guanhaisu/OBSD) [![arXiv](https://img.shields.io/badge/Arxiv-2406.00684-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.00684) <br>
+    
+> [**Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction**](https://arxiv.org/abs/2406.03019) <br>
+> 王鹏杰, 张凯乐, 王欣雨, 韩胜伟, 刘永革, 金连文, 白翔, 刘禹良 <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) [![arXiv](https://img.shields.io/badge/Arxiv-2406.03019-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.03019) <br>
+
+> [**An open dataset for oracle bone character recognition and decipherment**](https://www.nature.com/articles/s41597-024-03807-x) <br>
+> 王鹏杰, 张凯乐, 王欣雨, 韩胜伟, 刘永革, 万金鹏, 管海粟, 匡嚞玢, 金连文, 白翔, 刘禹良 <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/Pengjie-W/HUST-OBC) [![arXiv](https://img.shields.io/badge/Scientific_Data-s41597.024.03807-gren.svg?)](https://www.nature.com/articles/s41597-024-03807-x) <br>
+
+> [**An open dataset for the evolution of oracle bone characters: EVOBC**](https://arxiv.org/abs/2401.12467) <br>
+> 管海粟, 万金鹏, 刘禹良, 王鹏杰, 张凯乐, 匡嚞玢, 王欣雨, 白翔, 金连文 <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br>
+
+## 📰 新闻
+
+* **[2025.10.5]** 我们发布了 AlphaOracle 的论文和[演示](http://www.alphaoracle.cn:8224/)。
+
+</p></details>
+
 ## 核心功能
 
 - 甲骨文拓片与摹本分析：覆盖字符检测、字符识别、句子切分、句内排序以及翻译为现代汉语等步骤。
 - 单字分析与释读：考察甲骨文字形的历时演变，分析部件结构与构形，并生成其形态特征描述。
 - 甲骨单字检索：以单个字形图像为查询，在数据库中召回所有形体相近的甲骨文字，并提供该字所在完整拓片或摹本信息。
 - 关联文献检索：围绕特定甲骨文字的形体特征与语义，跨越早期传世文献与现代学术成果的双重语料库进行深度检索，呈现最相关的讨论、证据与研究结论。
+
+<div align="center">
+  <img src="figures/1.jpg" width="800">
+</div>
 
 ## 使用教程
 
@@ -63,21 +92,36 @@ AlphaOracle 是一套帮助专家释读甲骨文的人工智能系统。它通�
 - 《汉书》, 《史记》, 《左传》, 《黄帝内经》, 《战国策》, 《淮南子》, 《韩非子》, 《礼记》, 《吕氏春秋》, 《国语》, 《仪礼》, 《庄子》, 《墨子》, 《周礼》, 《孟子》, 《山海经》, 《尚书》, 《荀子》, 《论语》, 《易传》, 《孙膑兵法》, 《老子》, 《孙子兵法》, 《吴子》
 
 ### 现代学术文献：
-- 覆盖甲骨文、古文字、先秦史等相关领域的大量学术论文与研究报告。更多详情请参见[原始数据来源](http://vlrlabmonkey.xyz:8224/wenxian)。
+覆盖甲骨文、古文字、先秦史等相关领域的大量学术论文与研究报告。更多详情请参见[原始数据来源](http://www.alphaoracle.cn:8224/wenxian)。
 
-## 网站演示
-本项目还提供了网站[AlphaOracle](http://vlrlabmonkey.xyz:8224/)便于快速体验和使用
+## 视频演示
 
-https://github.com/user-attachments/assets/70e2c3d0-6da2-45af-b03e-76ae5ea8a0e7
+https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
-## 学术谨慎
+我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224/) 以便快速体验和使用。
 
-我们致力于提供前沿的 AI 辅助能力。但由于技术与数据的限制，输出结果仍可能存在偏差或误释。如需在正式出版物中引用本系统产生的见解，请完善注明出处，并进行必要的学术核查。
+## 学术声明
+
+我们致力于提供前沿的 AI 辅助。然而，由于固有的技术和数据限制，输出可能包含差异或误解。如果您在任何已发表的作品中引用本系统的见解，请附上适当的致谢，并进行您自己的最终学术验证。
 
 ## 许可协议
 
-[MIT LICENSE](LICENSE)
+[Apache License](LICENSE)
 
----
+## ✏️ 引用
+
+```BibTeX
+@article{liu2025oracle,
+  title={Oracle bone script decipherment via human-workflow-inspired deep learning},
+  author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
+  year={2025}
+}
+```
+
+## 🤝 贡献者
+
+<a href="https://github.com/Yuliang-Liu/AlphaOracle/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AlphaOracle" />
+</a>
 
 © 2025 AlphaOracle 项目组
