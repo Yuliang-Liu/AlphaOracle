@@ -109,6 +109,10 @@ We are committed to providing cutting-edge AI assistance. However, due to inhere
 
 [MIT LICENSE](LICENSE)
 
+## Contributors
+<a href="https://github.com/Yuliang-Liu/AlphaOracle/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AlphaOracle" />
+</a>
 ---
 
 © 2025 AlphaOracle Project Team
