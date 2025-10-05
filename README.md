@@ -119,14 +119,14 @@ https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for quick experience and use.
 
-## TODO
+<!-- ## TODO
 
 - [x] Demo
 - [ ] API
 - [ ] Model Weights
 - [ ] Inference Code
 - [ ] Full Decipherment Pipeline
-- [ ] Training Code
+- [ ] Training Code -->
 
 ## Academic Statement
 

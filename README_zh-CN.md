@@ -114,14 +114,14 @@ https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224) 以便快速体验和使用。
 
-## 待办事项
+<!-- ## 待办事项
 
 - [x] 演示
 - [ ] API
 - [ ] 模型权重
 - [ ] 推理代码
 - [ ] 完整的释读流程
-- [ ] 训练代码
+- [ ] 训练代码 -->
 
 ## 学术声明
 
