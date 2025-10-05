@@ -51,12 +51,28 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 ## Key Features
 
 - Analysis of oracle bone rubbings and transcriptions: involving character detection, character recognition, sentence segmentation, intra-sentence ordering, and translation into Modern Chinese.
+<div align="center">
+  <img src="figures/en/key1.png" width="600">
+</div>
+
 - Analysis and Decipherment of Individual Oracle Bone Characters: investigating the diachronic evolution of their glyph forms, analyzing their component structures and configurations, and generating descriptions of their morphological features. 
+<div align="center">
+  <img src="figures/en/key2.png" width="600">
+</div>
+
 - Retrieval for Oracle Bone Characters: using a single character image as a query, the system retrieves all characters with similar glyph shapes from the database. For each result, it provides the corresponding complete rubbing or transcription in which the character is found.
+<div align="center">
+  <img src="figures/en/key3.png" width="600">
+</div>
+
 - Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
 
 <div align="center">
-  <img src="figures/1.jpg" width="800">
+  <img src="figures/en/key4.png" width="600">
+</div>
+
+<div align="center">
+  <img src="figures/en/1.jpg" width="800">
 </div>
 
 ## Tutorial
