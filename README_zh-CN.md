@@ -110,7 +110,7 @@
 
 ## 视频演示
 
-https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
+https://github.com/user-attachments/assets/4a9262ad-6c08-438d-a92f-7d9d6edee5ca
 
 我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224) 以便快速体验和使用。
 
