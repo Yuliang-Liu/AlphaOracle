@@ -4,6 +4,8 @@
 
 <div align="center">
 <h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
+  <p>Yuliang Liu<sup>*,†</sup>, Haisu Guan<sup>*</sup>, PengJie Wang<sup>*</sup>, Xinyu Wang<sup>*</sup>, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin<sup>†</sup> and Xiang Bai<sup>†</sup></p>
+<p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author</p>
 </div>
 
 AlphaOracle is an artificial intelligence system that assists experts in deciphering oracle bone script. It provides auxiliary clues for experts and improves interpretation efficiency through four methods: analysis of rubbings and facsimiles, analysis of individual oracle bone characters, retrieval of individual oracle bone characters, and retrieval of related literature.
@@ -40,11 +42,9 @@ AlphaOracle is an artificial intelligence system that assists experts in deciphe
 > Haisu Guan, Jinpeng Wan, Yuliang Liu, Pengjie Wang, Kaile Zhang, Zhebin Kuang, Xinyu Wang, Xiang Bai, Lianwen Jin <br>
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br>
 
-<!--
-> [**Video-Bench: A Comprehensive Benchmark and Toolkit for Evaluating Video-based Large Language Models**](https://arxiv.org/abs/2311.08046) <br>
-> Munan Ning, Bin Zhu, Yujia Xie, Bin Lin, Jiaxi Cui, Lu Yuan, Dongdong Chen, Li Yuan <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/PKU-YuanGroup/Video-Bench)  [![github](https://img.shields.io/github/stars/PKU-YuanGroup/Video-Bench.svg?style=social)](https://github.com/PKU-YuanGroup/Video-Bench)  [![arXiv](https://img.shields.io/badge/Arxiv-2311.16103-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2311.16103) <br>
--->
+## 📰 News
+
+* **[2025.10.5]** We have released the paper and [demo](http://www.alphaoracle.cn:8224/?lan=en) of AlphaOracle.
 
 </p></details>
 
@@ -56,7 +56,7 @@ AlphaOracle is an artificial intelligence system that assists experts in deciphe
 - Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
 
 <div align="center">
-  <img src="https://v1.ax1x.com/2025/10/03/EIkE87.png" width="800">
+  <img src="figures/1.jpg" width="800">
 </div>
 
 ## Tutorial
@@ -96,19 +96,34 @@ This project draws upon a comprehensive collection of textual and inscriptional 
 ### Modern Scholarly Literature:
 A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://vlrlabmonkey.xyz:8224/wenxian).
 
-## Demo
-We also provide the website [AlphaOracle](http://vlrlabmonkey.xyz:8224/) for quick experience and use
+## Video Demonstration
 
 https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
-## Academic Rigor
+We provide the website [AlphaOracle](http://vlrlabmonkey.xyz:8224/) for quick experience and use
+
+## Academic Statement
 
 We are committed to providing cutting-edge AI assistance. However, due to inherent technological and data limitations, the output may contain discrepancies or misinterpretations. If you reference insights from this system in any published work, please include an appropriate acknowledgement and conduct your own final academic verification.
 
 ## License
 
-[MIT LICENSE](LICENSE)
+[Apache License](LICENSE)
 
----
+## ✏️ Citation
+
+```BibTeX
+@article{lin2023video,
+  title={Oracle bone script decipherment via human-workflow-inspired deep learning},
+  author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
+  year={2025}
+}
+```
+
+## 🤝 Contributors
+
+<a href="https://github.com/Yuliang-Liu/AlphaOracle/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AlphaOracle" />
+</a>
 
 © 2025 AlphaOracle Project Team
