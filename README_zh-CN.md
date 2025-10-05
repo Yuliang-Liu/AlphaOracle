@@ -51,19 +51,19 @@
 
 - 甲骨文拓片与摹本分析：覆盖字符检测、字符识别、句子切分、句内排序以及翻译为现代汉语等步骤。
 <div align="center">
-  <img src="figures/zh/key1.jpg" width="600">
+  <img src="figures/en/key1.png" width="600">
 </div>
 - 单字分析与释读：考察甲骨文字形的历时演变，分析部件结构与构形，并生成其形态特征描述。
 <div align="center">
-  <img src="figures/zh/key2.jpg" width="600">
+  <img src="figures/zh/key2.png" width="600">
 </div>
 - 甲骨单字检索：以单个字形图像为查询，在数据库中召回所有形体相近的甲骨文字，并提供该字所在完整拓片或摹本信息。
 <div align="center">
-  <img src="figures/zh/key3.jpg" width="600">
+  <img src="figures/zh/key3.png" width="600">
 </div>
 - 关联文献检索：围绕特定甲骨文字的形体特征与语义，跨越早期传世文献与现代学术成果的双重语料库进行深度检索，呈现最相关的讨论、证据与研究结论。
 <div align="center">
-  <img src="figures/zh/key4.jpg" width="600">
+  <img src="figures/zh/key4.png" width="600">
 </div>
 <div align="center">
   <img src="figures/en/1.jpg" width="800">
