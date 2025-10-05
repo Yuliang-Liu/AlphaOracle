@@ -70,10 +70,10 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 <div align="center">
   <img src="figures/en/key4.png" width="600">
 </div>
-
+<!-- 
 <div align="center">
   <img src="figures/en/1.jpg" width="800">
-</div>
+</div> -->
 
 ## Tutorial
 
