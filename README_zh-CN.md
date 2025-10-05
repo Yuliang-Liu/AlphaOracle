@@ -114,7 +114,7 @@ https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 ## 待办事项
 
-- [✔] 演示
+- [x] 演示
 - [ ] API
 - [ ] 模型权重
 - [ ] 推理代码
