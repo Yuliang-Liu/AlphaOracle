@@ -59,10 +59,12 @@ We introduce a human-workflow-inspired approach AlphaOracle that accelerates ora
 <div align="center">
   <img src="figures/key2.png" width="600">
 </div>
+
 - Retrieval for Oracle Bone Characters: using a single character image as a query, the system retrieves all characters with similar glyph shapes from the database. For each result, it provides the corresponding complete rubbing or transcription in which the character is found.
 <div align="center">
   <img src="figures/key3.png" width="600">
 </div>
+
 - Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
 
 <div align="center">
