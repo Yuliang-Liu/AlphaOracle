@@ -12,7 +12,7 @@
 Oracle bone script (OBS) are among the world’s independently evolved scripts, yet roughly two-thirds of the 4,500 characters remain undeciphered due to obscure forms, sparse and fragmented texts, and limited corroborating evidence. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
 </div>
 
-<div align="center">
+<div align="justify">
 
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
@@ -115,7 +115,7 @@ A vast collection of modern academic papers and research reports focusing on ora
 
 ## Video Demonstration
 
-https://github.com/user-attachments/assets/ede62cfd-26e9-4b64-9287-a3b3f03372dc
+https://github.com/user-attachments/assets/69ea0636-37bb-4fef-a0f6-80a27fa21105
 
 We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for quick experience and use.
 
