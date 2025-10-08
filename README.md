@@ -2,11 +2,7 @@
   <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
 </div>
 
-<div align="center">
-<h3>Oracle bone script decipherment via human-workflow-inspired deep learning</h3>
-  <p>Yuliang Liu<sup>*,†</sup>, Haisu Guan<sup>*</sup>, PengJie Wang<sup>*</sup>, Xinyu Wang<sup>*</sup>, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin<sup>†</sup> and Xiang Bai<sup>†</sup></p>
-<p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author</p>
-</div>
+
 
 <div align="justify">
 Oracle bone script (OBS) are among the world’s independently evolved scripts, yet roughly two-thirds of the 4,500 characters remain undeciphered due to obscure forms, sparse and fragmented texts, and limited corroborating evidence. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
@@ -23,7 +19,6 @@ Oracle bone script (OBS) are among the world’s independently evolved scripts, 
 
 </div>
 
----
 
 <!-- <details open><summary>💡 I also have other projects that may interest you ✨. </summary><p>
     
@@ -43,30 +38,26 @@ Oracle bone script (OBS) are among the world’s independently evolved scripts, 
 > Haisu Guan, Jinpeng Wan, Yuliang Liu, Pengjie Wang, Kaile Zhang, Zhebin Kuang, Xinyu Wang, Xiang Bai, Lianwen Jin <br>
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
 
-## 📰 News
-
-* `[2025.10.5]`  We have released the paper and [demo](http://www.alphaoracle.cn:8224/?lan=en) of AlphaOracle.
-
 </p></details>
 
 ## Key Features
 
-- Analysis of oracle bone rubbings and transcriptions: involving character detection, character recognition, sentence segmentation, intra-sentence ordering, and translation into Modern Chinese.
+- Rubbing Processing: involving character detection, character recognition, sentence segmentation, intra-sentence ordering, and translation into Modern English/Chinese.
 <div align="center">
   <img src="figures/en/key1.png" width="600">
 </div>
 
-- Analysis and Decipherment of Individual Oracle Bone Characters: investigating the diachronic evolution of their glyph forms, analyzing their component structures and configurations, and generating descriptions of their morphological features. 
+- Morphological Analysis: investigating the diachronic evolution of their glyph forms, analyzing their component structures and configurations, and generating descriptions of their morphological features. 
 <div align="center">
   <img src="figures/en/key2.png" width="600">
 </div>
 
-- Retrieval for Oracle Bone Characters: using a single character image as a query, the system retrieves all characters with similar glyph shapes from the database. For each result, it provides the corresponding complete rubbing or transcription in which the character is found.
+- Contextual Alignment: given a single character image as a query, the system retrieves visually similar glyphs and displays each within its full rubbing or transcription context. This allows researchers to examine how the character appears across inscriptions, compare its usage in different settings, and identify patterns of meaning, function, or variation that inform its interpretation.
 <div align="center">
   <img src="figures/en/key3.png" width="600">
 </div>
 
-- Associative Literature Retrieval: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
+- Philological Grounding: based on the glyphic form and semantic meaning of a specific oracle bone character, the system performs a deep search across a dual corpus—encompassing early transmitted Chinese texts (from the pre-Qin and Han dynasties) and modern scholarly literature—to discover and present the most relevant discussions, evidence, and research findings.
 
 <div align="center">
   <img src="figures/en/key4.png" width="600">
@@ -130,7 +121,7 @@ We provide the website [AlphaOracle](http://www.alphaoracle.cn:8224/?lan=en) for
 
 ## Academic Statement
 
-We are committed to providing cutting-edge AI assistance. However, due to inherent technological and data limitations, the output may contain discrepancies or misinterpretations. If you reference insights from this system in any published work, please include an appropriate acknowledgement and conduct your own final academic verification.
+We are committed to delivering high-quality assistance for oracle bone script deciperment. However, due to inherent technological and data limitations, the outputs may contain occasional inaccuracies or misinterpretations. If you reference insights generated by this system in any published work, please provide appropriate acknowledgement and conduct independent academic verification before publication.
 
 ## License
 
