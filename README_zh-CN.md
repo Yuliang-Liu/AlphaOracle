@@ -23,7 +23,6 @@
 
 </div>
 
----
 
 <!-- <details open><summary>💡 我还有其他您可能感兴趣的项目 ✨。</summary><p>
     
@@ -42,10 +41,6 @@
 > [**An open dataset for the evolution of oracle bone characters: EVOBC**](https://arxiv.org/abs/2401.12467) <br>
 > 管海粟, 万金鹏, 刘禹良, 王鹏杰, 张凯乐, 匡嚞玢, 王欣雨, 白翔, 金连文 <br>
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
-
-## 📰 新闻
-
-* `[2025.10.5]` 我们发布了 AlphaOracle 的论文和[演示](http://www.alphaoracle.cn:8224/)。
 
 </p></details>
 
@@ -66,9 +61,6 @@
 - 关联文献检索：围绕特定甲骨文字的形体特征与语义，跨越早期传世文献与现代学术成果的双重语料库进行深度检索，呈现最相关的讨论、证据与研究结论。
 <div align="center">
   <img src="figures/zh/key4.png" width="600">
-</div>
-<div align="center">
-  <img src="figures/en/1.jpg" width="800">
 </div>
 
 ## 使用教程
