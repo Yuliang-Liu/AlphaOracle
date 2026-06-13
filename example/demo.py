@@ -273,7 +273,7 @@ def run_demo(tasks, server_url: str, save_dir: str):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="调用聚合 API 的演示脚本")
-    parser.add_argument("--server-url", default=os.getenv("JICHENG_SERVER_URL", "http://vlrlabmonkey.xyz:7680"), help="API 服务器地址")
+    parser.add_argument("--server-url", default=os.getenv("ALPHAORACLE_SERVER_URL") or os.getenv("JICHENG_SERVER_URL", "http://vlrlabmonkey.xyz:7680"), help="API 服务器地址")
     parser.add_argument("--save-dir", default="example/outputs", help="输出保存目录")
     parser.add_argument("--tasks", nargs="*", choices=list(DEFAULT_IMAGES.keys()),
                         default=[

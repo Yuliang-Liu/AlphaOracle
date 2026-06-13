@@ -2,10 +2,14 @@
   <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
 </div>
 
-
-
 <div align="justify">
-Oracle bone script (OBS) are among the world’s independently evolved scripts, yet roughly two-thirds of the 4,500 characters remain undeciphered due to obscure forms, sparse and fragmented texts, and limited corroborating evidence. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
+Oracle bone script (OBS) is one of the world’s independently evolved scripts, yet approximately 3,000 of its 4,500 characters remain undeciphered due to fragmentary inscriptions and sparse evidence. Current AI approaches often fail to replicate expert workflows that integrate form analysis, contextual semantics, and philological reasoning. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
+</div>
+
+<div align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
+    <img src="figures/paper.jpg" width="800" alt="AlphaOracle paper">
+  </a>
 </div>
 
 <div align="center">
@@ -13,7 +17,13 @@ Oracle bone script (OBS) are among the world’s independently evolved scripts, 
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
 [![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/?lan=en)
+[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
+[![PII](https://img.shields.io/badge/PII-S2666675826002092-purple)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
 [![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
+[![citation](https://img.shields.io/badge/Citation-CFF-informational)](CITATION.cff)
+
+**Published in [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092), available online June 12, 2026.**
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -31,7 +41,7 @@ Oracle bone script (OBS) are among the world’s independently evolved scripts, 
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) [![arXiv](https://img.shields.io/badge/Arxiv-2406.03019-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.03019) <br>
 
 > [**An open dataset for oracle bone character recognition and decipherment**](https://www.nature.com/articles/s41597-024-03807-x) <br>
-> Pengjie Wang, Kaile Zhang, Xinyu Wang, Shengwei Han, Yongge Liu, Jinpeng Wan, Haisu Guan, Zhebin Kuang, Lianwen Jin, Xiang Bai Yuliang Liu <br>
+> Pengjie Wang, Kaile Zhang, Xinyu Wang, Shengwei Han, Yongge Liu, Jinpeng Wan, Haisu Guan, Zhebin Kuang, Lianwen Jin, Xiang Bai, Yuliang Liu <br>
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/Pengjie-W/HUST-OBC) [![arXiv](https://img.shields.io/badge/Scientific_Data-s41597.024.03807-gren.svg?)](https://www.nature.com/articles/s41597-024-03807-x) <br>
 
 > [**An open dataset for the evolution of oracle bone characters: EVOBC**](https://arxiv.org/abs/2401.12467) <br>
@@ -42,7 +52,7 @@ Oracle bone script (OBS) are among the world’s independently evolved scripts, 
 
 ## Key Features
 
-- Rubbing Processing: involving character detection, character recognition, sentence segmentation, intra-sentence ordering, and translation into Modern English/Chinese.
+- Rubbing Parsing: involving character detection, character recognition, sentence segmentation, intra-sentence ordering, and translation into Modern English/Chinese.
 <div align="center">
   <img src="figures/en/key1.png" width="600">
 </div>
@@ -102,7 +112,7 @@ This project draws upon a comprehensive collection of textual and inscriptional 
 - 《Han Shu》, 《Shi Ji》, 《Zuo Zhuan》, 《Huangdi Neijing》, 《Zhanguo Ce》, 《Huainanzi》, 《Han Feizi》, 《Li Ji》, 《Lu Shi Chunqiu》, 《Guo Yu》, 《Yi Li》, 《Zhuangzi》, 《Mozi》, 《Zhou Li》, 《Mengzi》, 《Shan Hai Jing》, 《Shang Shu》, 《Xunzi》, 《Lunyu》, 《Yizhuan》, 《Sun Bin Bingfa》, 《Laozi》, 《Sunzi Bingfa》, 《Wuzi》 
 
 ### Modern Scholarly Literature:
-A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://www.alphaoracle.cn:8224/wenxian?lan=en).
+A vast collection of modern academic papers and research reports focusing on oracle bone script, paleography, ancient Chinese history, and related fields. For a detailed list, please refer to the [original data source](http://vlrlabmonkey.xyz:7685/wenxian?lan=en).
 
 ## Video Demonstration
 
@@ -121,21 +131,28 @@ We provide the website [AlphaOracle](http://vlrlabmonkey.xyz:7685/?lan=en) for q
 
 ## Academic Statement
 
-We are committed to delivering high-quality assistance for oracle bone script deciperment. However, due to inherent technological and data limitations, the outputs may contain occasional inaccuracies or misinterpretations. If you reference insights generated by this system in any published work, please provide appropriate acknowledgement and conduct independent academic verification before publication.
+We are committed to delivering high-quality assistance for oracle bone script decipherment. However, due to inherent technological and data limitations, the outputs may contain occasional inaccuracies or misinterpretations. If you reference insights generated by this system in any published work, please provide appropriate acknowledgement and conduct independent academic verification before publication.
 
 ## License
 
 [Apache License](LICENSE)
 
-<!-- ## ✏️ Citation
+## ✏️ Citation
+
+If you find this project useful, please cite our paper:
 
 ```BibTeX
-@article{liu2025oracle,
-  title={Oracle bone script decipherment via human-workflow-inspired deep learning},
-  author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
-  year={2025}
+@article{liu2026alphaoracle,
+  title   = {AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning},
+  author  = {Liu, Yuliang and Guan, Haisu and Wang, PengJie and Wang, Xinyu and Wan, Jinpeng and Zhang, Kaile and Zheng, Handong and Liu, Xingchen and Kuang, Zhebin and Yang, Huanxin and Li, Bang and Liu, Yongge and Jin, Lianwen and Bai, Xiang},
+  journal = {The Innovation},
+  pages   = {101462},
+  year    = {2026},
+  month   = {June},
+  issn    = {2666-6758},
+  doi     = {10.1016/j.xinn.2026.101462}
 }
-``` -->
+```
 
 ## 🤝 Contributors
 
@@ -143,4 +160,4 @@ We are committed to delivering high-quality assistance for oracle bone script de
   <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AlphaOracle" />
 </a>
 
-© 2025 AlphaOracle Project Team
+© 2026 AlphaOracle Project Team

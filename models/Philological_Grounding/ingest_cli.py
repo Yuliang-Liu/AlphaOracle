@@ -32,7 +32,7 @@ os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 FILE_CHUNK   = 500   # 每批处理的文件数；可按机器改 500~5000
 
 # ========= 常量（可按硬件调优）=========
-EMBED_MODEL   = "Path/to/Qwen3-Embedding-0.6B"   # 你的本地模型（保持不变）
+EMBED_MODEL   = os.environ.get("ALPHAORACLE_EMBED_MODEL", "Qwen/Qwen3-Embedding-0.6B")
 EMBED_DIM     = 1024
 CUDA0         = ComponentDevice.from_str("cuda:0")  # 如需 CPU 可改 "cpu"
 
@@ -46,17 +46,17 @@ QDRANT_API_KEY= os.environ.get("QDRANT_API_KEY", None)
 USE_GRPC      = False   # 固定 HTTP，避免被系统代理劫持到 7890
 
 # ========= 数据源路径 =========
-JSON_FOLDER       = '***'
-JSON_SOURCE_NAME  = '***'
+JSON_FOLDER       = os.environ.get("ALPHAORACLE_JSON_FOLDER", "")
+JSON_SOURCE_NAME  = os.environ.get("ALPHAORACLE_JSON_SOURCE_NAME", "modern_literature")
 
-JSON_FOLDER_1     = '***'
-JSON_SOURCE_NAME_1= '***'
+JSON_FOLDER_1     = os.environ.get("ALPHAORACLE_JSON_FOLDER_1", "")
+JSON_SOURCE_NAME_1= os.environ.get("ALPHAORACLE_JSON_SOURCE_NAME_1", "oracle_bone_literature")
 
-TXT_FOLDER_DEFAULT= '***'
-TXT_SOURCE_NAME   = '***'
+TXT_FOLDER_DEFAULT= os.environ.get("ALPHAORACLE_TXT_FOLDER", "")
+TXT_SOURCE_NAME   = os.environ.get("ALPHAORACLE_TXT_SOURCE_NAME", "transmitted_texts")
 
-TXT_FOLDER_SHUOWEN= '***'
-TXT_SOURCE_NAME_SHUOWEN = '***'
+TXT_FOLDER_SHUOWEN= os.environ.get("ALPHAORACLE_TXT_FOLDER_SHUOWEN", "")
+TXT_SOURCE_NAME_SHUOWEN = os.environ.get("ALPHAORACLE_TXT_SOURCE_NAME_SHUOWEN", "shuowen")
 
 
 # ========= 工具函数 =========
@@ -240,12 +240,21 @@ def splitter_shuowen(files: List[Path], src_name: str) -> List[Document]:
             docs.append(Document(id=doc_id, content=text, meta=meta))
     return docs
 
-SOURCES: Dict[str, SourceConfig] = {
-    JSON_SOURCE_NAME_1:      SourceConfig(JSON_SOURCE_NAME_1,      JSON_FOLDER_1,      ".json", splitter_json_blocks),
-    JSON_SOURCE_NAME:        SourceConfig(JSON_SOURCE_NAME,        JSON_FOLDER,        ".json", splitter_json_blocks),
-    TXT_SOURCE_NAME:         SourceConfig(TXT_SOURCE_NAME,         TXT_FOLDER_DEFAULT, ".txt",  splitter_default),
-    TXT_SOURCE_NAME_SHUOWEN: SourceConfig(TXT_SOURCE_NAME_SHUOWEN, TXT_FOLDER_SHUOWEN, ".txt",  splitter_shuowen),
-}
+def build_sources() -> Dict[str, SourceConfig]:
+    candidates = [
+        (JSON_SOURCE_NAME_1, JSON_FOLDER_1, ".json", splitter_json_blocks),
+        (JSON_SOURCE_NAME, JSON_FOLDER, ".json", splitter_json_blocks),
+        (TXT_SOURCE_NAME, TXT_FOLDER_DEFAULT, ".txt", splitter_default),
+        (TXT_SOURCE_NAME_SHUOWEN, TXT_FOLDER_SHUOWEN, ".txt", splitter_shuowen),
+    ]
+    sources: Dict[str, SourceConfig] = {}
+    for name, folder, suffix, splitter in candidates:
+        if not name or not folder:
+            continue
+        sources[name] = SourceConfig(name, Path(folder), suffix, splitter)
+    return sources
+
+SOURCES: Dict[str, SourceConfig] = build_sources()
 
 
 # ========= 对账（与 Server 比较）：找出 MISSING / CHANGED =========
@@ -422,4 +431,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", required=True, help=f"可选：{list(SOURCES.keys())}")
     args = parser.parse_args()
+    if not SOURCES:
+        raise SystemExit("❌ No data sources configured. Set ALPHAORACLE_*_FOLDER environment variables first.")
     ingest_one_source(args.source)

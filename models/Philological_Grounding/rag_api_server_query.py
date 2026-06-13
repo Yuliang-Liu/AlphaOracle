@@ -27,8 +27,8 @@ import os
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 # 模型
-EMBED_MODEL = "Path/to/Qwen3-Embedding-0.6B"
-RERANK_MODEL = "Path/to/Qwen3-Reranker-0.6B"
+EMBED_MODEL = os.environ.get("ALPHAORACLE_EMBED_MODEL", "Qwen/Qwen3-Embedding-0.6B")
+RERANK_MODEL = os.environ.get("ALPHAORACLE_RERANK_MODEL", "Qwen/Qwen3-Reranker-0.6B")
 EMBED_DIM = 1024
 CUDA0 = ComponentDevice.from_str("cuda:0")
 
@@ -37,8 +37,8 @@ QDRANT_URL = os.environ.get("QDRANT_URL", "http://127.0.0.1:6333")
 QDRANT_API_KEY = os.environ.get("QDRANT_API_KEY", None)
 USE_GRPC = False  # 固定 HTTP
 
-SOURCES = []  # Your data List
-DEFAULT_SOURCE = ""
+SOURCES = [s.strip() for s in os.environ.get("ALPHAORACLE_RAG_SOURCES", "").split(",") if s.strip()]
+DEFAULT_SOURCE = os.environ.get("ALPHAORACLE_RAG_DEFAULT_SOURCE", SOURCES[0] if SOURCES else "")
 
 def qdrant_store(collection: str) -> QdrantDocumentStore:
     for k in ["HTTP_PROXY","http_proxy","HTTPS_PROXY","https_proxy","ALL_PROXY","all_proxy"]:
@@ -98,7 +98,8 @@ class QueryRequest(BaseModel):
 
 @app.on_event("startup")
 def startup_event() -> None:
-    pass
+    if not SOURCES:
+        print("⚠️ ALPHAORACLE_RAG_SOURCES is empty. Set it to comma-separated Qdrant collection names before querying.")
 
 @app.post("/query", response_model=Dict[str, Any])
 def query_docs(req: QueryRequest):

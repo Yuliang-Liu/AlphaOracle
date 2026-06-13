@@ -1,1 +1,6 @@
 example/outputs/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store

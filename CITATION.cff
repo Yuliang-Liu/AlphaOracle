@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: "If you use AlphaOracle, please cite the published paper."
+title: "AlphaOracle"
+type: software
+version: "1.0"
+date-released: 2026-06-12
+license: Apache-2.0
+repository-code: "https://github.com/Yuliang-Liu/AlphaOracle"
+authors:
+  - family-names: Liu
+    given-names: Yuliang
+  - family-names: Guan
+    given-names: Haisu
+  - family-names: Wang
+    given-names: PengJie
+  - family-names: Wang
+    given-names: Xinyu
+  - family-names: Wan
+    given-names: Jinpeng
+  - family-names: Zhang
+    given-names: Kaile
+  - family-names: Zheng
+    given-names: Handong
+  - family-names: Liu
+    given-names: Xingchen
+  - family-names: Kuang
+    given-names: Zhebin
+  - family-names: Yang
+    given-names: Huanxin
+  - family-names: Li
+    given-names: Bang
+  - family-names: Liu
+    given-names: Yongge
+  - family-names: Jin
+    given-names: Lianwen
+  - family-names: Bai
+    given-names: Xiang
+preferred-citation:
+  type: article
+  title: "AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning"
+  authors:
+    - family-names: Liu
+      given-names: Yuliang
+    - family-names: Guan
+      given-names: Haisu
+    - family-names: Wang
+      given-names: PengJie
+    - family-names: Wang
+      given-names: Xinyu
+    - family-names: Wan
+      given-names: Jinpeng
+    - family-names: Zhang
+      given-names: Kaile
+    - family-names: Zheng
+      given-names: Handong
+    - family-names: Liu
+      given-names: Xingchen
+    - family-names: Kuang
+      given-names: Zhebin
+    - family-names: Yang
+      given-names: Huanxin
+    - family-names: Li
+      given-names: Bang
+    - family-names: Liu
+      given-names: Yongge
+    - family-names: Jin
+      given-names: Lianwen
+    - family-names: Bai
+      given-names: Xiang
+  journal: "The Innovation"
+  year: 2026
+  month: 6
+  pages: "101462"
+  issn: "2666-6758"
+  doi: "10.1016/j.xinn.2026.101462"

@@ -9,7 +9,13 @@
 </div>
 
 <div align="justify">
-甲骨文（Oracle Bone Script，简称 OBS）是世界上少数几种独立发展起来的文字体系之一，但约 4500 个甲骨文字中仍有约三分之二尚未被破译，其原因在于字形晦涩、文辞零散且残缺、以及缺乏充分的旁证材料。我们提出 AlphaOracle，一个以工作流为灵感的综合性框架，通过整合计算机视觉、计算语言学与古文字学方法，系统化地推进甲骨文的破译研究。AlphaOracle 汇集了迄今为止规模最大的甲骨文字数字化资源，并通过一个多阶段框架将其转化为可操作的研究流程：包括拓片解析、基于部件的形态分析与历时建模、语义对齐下的语境检索、以及结合古文献的文字学验证。框架的每一阶段都生成带有量化评分的显式证据链，最终汇总为可解释的报告，以供学术验证。研究结果表明，当计算方法与文字学研究实践相结合时，不仅能加速甲骨文的破译进程，还能为数字人文学与文化遗产研究领域中其他未解读文字的研究提供新的理论与方法框架。
+甲骨文（Oracle Bone Script，简称 OBS）是世界上少数几种独立发展起来的文字体系之一，但约 4500 个甲骨文字中仍有约 3000 个尚未被破译，其原因在于卜辞残缺、证据稀疏且难以充分互证。现有 AI 方法往往难以复现专家将形体分析、语境语义与文字学论证整合起来的工作流。我们提出 AlphaOracle，一个以工作流为灵感的综合性框架，通过整合计算机视觉、计算语言学与古文字学方法，系统化地推进甲骨文的破译研究。AlphaOracle 汇集了迄今为止规模最大的甲骨文字数字化资源，并通过一个多阶段框架将其转化为可操作的研究流程：包括拓片解析、基于部件的形态分析与历时建模、语义对齐下的语境检索、以及结合古文献的文字学验证。框架的每一阶段都生成带有量化评分的显式证据链，最终汇总为可解释的报告，以供学术验证。研究结果表明，当计算方法与文字学研究实践相结合时，不仅能加速甲骨文的破译进程，还能为数字人文学与文化遗产研究领域中其他未解读文字的研究提供新的理论与方法框架。
+</div>
+
+<div align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
+    <img src="figures/paper.jpg" width="800" alt="AlphaOracle 论文">
+  </a>
 </div>
 
 <div align="center">
@@ -17,7 +23,13 @@
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
 [![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/)
+[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
+[![PII](https://img.shields.io/badge/PII-S2666675826002092-purple)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
 [![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
+[![citation](https://img.shields.io/badge/Citation-CFF-informational)](CITATION.cff)
+
+**论文已发表于 [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092)，上线日期：2026 年 6 月 12 日。**
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -98,14 +110,14 @@
 - 《汉书》, 《史记》, 《左传》, 《黄帝内经》, 《战国策》, 《淮南子》, 《韩非子》, 《礼记》, 《吕氏春秋》, 《国语》, 《仪礼》, 《庄子》, 《墨子》, 《周礼》, 《孟子》, 《山海经》, 《尚书》, 《荀子》, 《论语》, 《易传》, 《孙膑兵法》, 《老子》, 《孙子兵法》, 《吴子》
 
 ### 现代学术文献：
-覆盖甲骨文、古文字、先秦史等相关领域的大量学术论文与研究报告。更多详情请参见[原始数据来源](http://www.alphaoracle.cn:8224/wenxian)。
+覆盖甲骨文、古文字、先秦史等相关领域的大量学术论文与研究报告。更多详情请参见[原始数据来源](http://vlrlabmonkey.xyz:7685/wenxian)。
 
 ## 视频演示
 
 https://github.com/user-attachments/assets/9cf9e8de-77d4-4b88-9852-f27d4294ec0f
 
 
-我们提供了网站 [AlphaOracle](http://www.alphaoracle.cn:8224) 以便快速体验和使用。
+我们提供了网站 [AlphaOracle](http://vlrlabmonkey.xyz:7685/?lan=zh) 以便快速体验和使用。
 
 <!-- ## 待办事项
 
@@ -124,15 +136,22 @@ https://github.com/user-attachments/assets/9cf9e8de-77d4-4b88-9852-f27d4294ec0f
 
 [Apache License](LICENSE)
 
-<!-- ## ✏️ 引用
+## ✏️ 引用
+
+如果本项目对您有帮助，请引用我们的论文：
 
 ```BibTeX
-@article{liu2025oracle,
-  title={Oracle bone script decipherment via human-workflow-inspired deep learning},
-  author={Yuliang Liu, Haisu Guan, PengJie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yonge Liu, Lianwen Jin and Xiang Bai},
-  year={2025}
+@article{liu2026alphaoracle,
+  title   = {AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning},
+  author  = {Liu, Yuliang and Guan, Haisu and Wang, PengJie and Wang, Xinyu and Wan, Jinpeng and Zhang, Kaile and Zheng, Handong and Liu, Xingchen and Kuang, Zhebin and Yang, Huanxin and Li, Bang and Liu, Yongge and Jin, Lianwen and Bai, Xiang},
+  journal = {The Innovation},
+  pages   = {101462},
+  year    = {2026},
+  month   = {June},
+  issn    = {2666-6758},
+  doi     = {10.1016/j.xinn.2026.101462}
 }
-``` -->
+```
 
 ## 🤝 贡献者
 
@@ -140,4 +159,4 @@ https://github.com/user-attachments/assets/9cf9e8de-77d4-4b88-9852-f27d4294ec0f
   <img src="https://contrib.rocks/image?repo=Yuliang-Liu/AlphaOracle" />
 </a>
 
-© 2025 AlphaOracle 项目组
+© 2026 AlphaOracle 项目组
