@@ -4,11 +4,11 @@
 
 <div align="center">
 
-# AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning
+<h1>AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning</h1>
 
-**Yuliang Liu<sup>*,†</sup>, Haisu Guan<sup>*</sup>, PengJie Wang<sup>*</sup>, Xinyu Wang<sup>*</sup>, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu<sup>†</sup>, Lianwen Jin<sup>†</sup>, Xiang Bai<sup>†</sup>**
+<p><strong>Yuliang Liu<sup>&#42;,†</sup>, Haisu Guan<sup>&#42;</sup>, PengJie Wang<sup>&#42;</sup>, Xinyu Wang<sup>&#42;</sup>, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu<sup>†</sup>, Lianwen Jin<sup>†</sup>, Xiang Bai<sup>†</sup></strong></p>
 
-<p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding authors</p>
+<p><sup>&#42;</sup>Equal contribution, <sup>†</sup>Corresponding authors</p>
 
 </div>
 
