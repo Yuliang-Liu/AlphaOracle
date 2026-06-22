@@ -2,6 +2,16 @@
   <img src="https://v1.ax1x.com/2025/10/03/EIkNeV.png" width="200">
 </div>
 
+<div align="center">
+
+# AlphaOracle: Oracle bone script decipherment via human-workflow-inspired deep learning
+
+**Yuliang Liu<sup>*,†</sup>, Haisu Guan<sup>*</sup>, PengJie Wang<sup>*</sup>, Xinyu Wang<sup>*</sup>, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu<sup>†</sup>, Lianwen Jin<sup>†</sup>, Xiang Bai<sup>†</sup>**
+
+<p><sup>*</sup>Equal contribution, <sup>†</sup>Corresponding authors</p>
+
+</div>
+
 <div align="justify">
 Oracle bone script (OBS) is one of the world’s independently evolved scripts, yet approximately 3,000 of its 4,500 characters remain undeciphered due to fragmentary inscriptions and sparse evidence. Current AI approaches often fail to replicate expert workflows that integrate form analysis, contextual semantics, and philological reasoning. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
 </div>
