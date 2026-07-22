@@ -12,28 +12,19 @@
 
 </div>
 
-<div align="justify">
-Oracle bone script (OBS) is one of the world’s independently evolved scripts, yet approximately 3,000 of its 4,500 characters remain undeciphered due to fragmentary inscriptions and sparse evidence. Current AI approaches often fail to replicate expert workflows that integrate form analysis, contextual semantics, and philological reasoning. We present AlphaOracle, a comprehensive, workflow-inspired framework that systematizes OBS decipherment by integrating computer vision, computational linguistics, and classical philology. AlphaOracle curates the largest digitized OBS resources to date and operationalizes them through a multi-stage framework comprising rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval with semantic alignment, and philological validation against classical sources. Each stage yields explicit evidence chains with quantitative scores, culminating in interpretable reports for scholarly verification. Our results indicate that computational methods, when aligned with philological practice, can accelerate OBS decipherment and provide a framework that could inform the study of other undeciphered scripts within digital humanities and cultural heritage research.
-</div>
-
-<div align="center">
-  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
-    <img src="figures/paper.jpg" width="800" alt="AlphaOracle paper">
-  </a>
-</div>
-
 <div align="center">
 
+[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.17849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2607.17849)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
+[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/?lan=en)
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
-[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/?lan=en)
-[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
-[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
 [![PII](https://img.shields.io/badge/PII-S2666675826002092-purple)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
 [![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
 [![citation](https://img.shields.io/badge/Citation-CFF-informational)](CITATION.cff)
 
-**Published in [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092), available online June 12, 2026.**
+**Published in [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092), 2026. Additional supplementary materials available on [arXiv](https://arxiv.org/abs/2607.17849)**
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -59,6 +50,18 @@ Oracle bone script (OBS) is one of the world’s independently evolved scripts, 
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
 
 </p></details>
+
+## Overview
+
+<div align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
+    <img src="figures/paper.jpg" width="800" alt="AlphaOracle paper">
+  </a>
+</div>
+
+<div align="justify">
+Approximately 3,000 of the 4,500 oracle bone script (OBS) characters remain undeciphered due to fragmentary inscriptions and sparse evidence. Current AI approaches fail to replicate expert workflows that integrate form analysis, contextual semantics, and philological reasoning. We introduce AlphaOracle, a human-workflow-inspired framework that systematizes OBS decipherment using the largest digitized corpus to date. Its multi-stage pipeline comprises: (i) rubbing parsing; (ii) radical-based morphological analysis with diachronic modeling; (iii) contextual retrieval with semantic alignment; and (iv) philological validation against classical sources. Each stage generates explicit, confidence-weighted evidence chains, culminating in interpretable reports for scholarly verification. Across multiple test characters, AlphaOracle's readings strongly agreed with expert interpretations. In a study of 86 domain specialists, it reduced analysis time by 64%, and 79% of participants rated it highly useful. Notably, AlphaOracle resolves the character "勞" as a toponymic or clan designation, offering concrete revisions to Shang administrative and social interpretations. These results suggest that computational methods aligned with philological practice can facilitate OBS research and provide a conceptual reference for studies of other undeciphered scripts.
+</div>
 
 ## Key Features
 

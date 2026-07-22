@@ -8,28 +8,19 @@
 <p><sup>*</sup>同等贡献, <sup>†</sup>通讯作者</p>
 </div>
 
-<div align="justify">
-甲骨文（Oracle Bone Script，简称 OBS）是世界上少数几种独立发展起来的文字体系之一，但约 4500 个甲骨文字中仍有约 3000 个尚未被破译，其原因在于卜辞残缺、证据稀疏且难以充分互证。现有 AI 方法往往难以复现专家将形体分析、语境语义与文字学论证整合起来的工作流。我们提出 AlphaOracle，一个以工作流为灵感的综合性框架，通过整合计算机视觉、计算语言学与古文字学方法，系统化地推进甲骨文的破译研究。AlphaOracle 汇集了迄今为止规模最大的甲骨文字数字化资源，并通过一个多阶段框架将其转化为可操作的研究流程：包括拓片解析、基于部件的形态分析与历时建模、语义对齐下的语境检索、以及结合古文献的文字学验证。框架的每一阶段都生成带有量化评分的显式证据链，最终汇总为可解释的报告，以供学术验证。研究结果表明，当计算方法与文字学研究实践相结合时，不仅能加速甲骨文的破译进程，还能为数字人文学与文化遗产研究领域中其他未解读文字的研究提供新的理论与方法框架。
-</div>
-
-<div align="center">
-  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
-    <img src="figures/paper.jpg" width="800" alt="AlphaOracle 论文">
-  </a>
-</div>
-
 <div align="center">
 
+[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.17849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2607.17849)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
+[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/)
 ![version](https://img.shields.io/badge/Version-v1.0-007acc)
 ![status](https://img.shields.io/badge/Status-active-00c853)
-[![demo](https://img.shields.io/badge/Demo-available-ff9800)](http://vlrlabmonkey.xyz:7685/)
-[![paper](https://img.shields.io/badge/Paper-The%20Innovation-2ea44f)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
-[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xinn.2026.101462-blue)](https://doi.org/10.1016/j.xinn.2026.101462)
 [![PII](https://img.shields.io/badge/PII-S2666675826002092-purple)](https://www.sciencedirect.com/science/article/pii/S2666675826002092)
 [![license](https://img.shields.io/badge/License-Apache-green)](LICENSE)
 [![citation](https://img.shields.io/badge/Citation-CFF-informational)](CITATION.cff)
 
-**论文已发表于 [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092)，上线日期：2026 年 6 月 12 日。**
+**论文发表于 [The Innovation](https://www.sciencedirect.com/science/article/pii/S2666675826002092)，2026 年。更多补充材料见 [arXiv 预印本](https://arxiv.org/abs/2607.17849)**
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -55,6 +46,18 @@
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/RomanticGodVAN/character-Evolution-Dataset) [![arXiv](https://img.shields.io/badge/Arxiv-2401.12467-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.12467) <br> -->
 
 </p></details>
+
+## 简介
+
+<div align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S2666675826002092">
+    <img src="figures/paper.jpg" width="800" alt="AlphaOracle 论文">
+  </a>
+</div>
+
+<div align="justify">
+约 4500 个甲骨文字中仍有约 3000 个尚未释读，主要受卜辞残缺与证据稀疏所限。现有 AI 方法难以复现专家将形体分析、语境语义与文字学论证相结合的研究工作流。我们提出 AlphaOracle，这是一个受人类工作流启发的框架，基于迄今最大规模的数字化语料系统化推进甲骨文释读。其多阶段流程包括：(i) 拓片解析；(ii) 基于部件的形态分析与历时建模；(iii) 结合语义对齐的语境检索；(iv) 面向古典文献的文字学验证。每个阶段都会生成显式且带置信度权重的证据链，最终形成可解释报告，供学者核验。在多个测试字例中，AlphaOracle 的释读结果与专家意见高度一致。在 86 位领域专家参与的研究中，它将分析时间减少了 64%，且 79% 的参与者认为其具有较高实用价值。值得注意的是，AlphaOracle 将 “勞” 字解释为地名或族氏称谓，为商代行政与社会结构研究提供了具体修订线索。这些结果表明，与文字学实践相结合的计算方法能够促进甲骨文研究，并可为其他未释读文字的研究提供概念参考。
+</div>
 
 ## 核心功能
 
